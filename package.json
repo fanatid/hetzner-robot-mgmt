@@ -1,0 +1,50 @@
+{
+  "name": "hetzner-robot-mgmt",
+  "version": "0.0.1",
+  "description": "Management tool for Hetzner Robot",
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/fanatid/hetzner-robot-mgmt/issues"
+  },
+  "license": "MIT",
+  "contributors": [
+    "Kirill Fomichev <fanatid@ya.ru> (https://github.com/fanatid)"
+  ],
+  "files": [
+    "bin",
+    "lib",
+    "yarn.lock"
+  ],
+  "bin": {
+    "hetzner-robot-mgmt": "./bin/hetzner-robot-mgmt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fanatid/hetzner-robot-mgmt.git"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "unit": "tape ./test/*.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "lodash": "^4.17.11",
+    "log-symbols": "^3.0.0",
+    "ms": "^2.1.1",
+    "qs": "^6.7.0",
+    "yaml": "^1.5.0",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "standard": "^12.0.1"
+  },
+  "engines": {
+    "node": ">=10.4.1"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "private": true
+}
