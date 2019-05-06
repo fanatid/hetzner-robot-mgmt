@@ -1,6 +1,6 @@
 {
   "name": "hetzner-robot-mgmt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Management tool for Hetzner Robot",
   "keywords": [],
   "bugs": {
